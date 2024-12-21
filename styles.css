@@ -1,0 +1,50 @@
+body{
+    background-color : rgb(197, 238, 254);
+    margin: 20px;
+    text-align: center;
+
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input{
+    padding: 15px;
+    width: 45px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight :520;
+    
+}
+
+button{
+    padding: 10px 45px 10px 45px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: green;
+    border: 1px green;
+}
+
+.image-Box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  .image-Box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+  }
+  
